@@ -13,12 +13,12 @@ function verifyBneficiaryDetails(){
 
   
   //BENEFICIARY FIRSTNAME
-  if (beneficiaryFirstName        ===    'keira'&& 
-      beneficiaryLastName         ===    'croft'&&
-      beneficiaryTestator         ===    'tyrion edward lannister'&&
-      beneficiaryTestatorAdress   ===    'illinois, united states'&&
-      beneficiaryLawyer           ===    'robert george'&&
-      beneficiaryInheritanceAmount===    '2000000'){
+  if (beneficiaryFirstName        ===    'amanda '&& 
+      beneficiaryLastName         ===    'brandon'&&
+      beneficiaryTestator         ===    'cole brandon'&&
+      beneficiaryTestatorAdress   ===    'missouri ,united states '&&
+      beneficiaryLawyer           ===    'attorney stuart b.bagley'&&
+      beneficiaryInheritanceAmount===    '5000000'){
 
   //email and password
   const BENEFICIARY_EMAIL         = 'keiracroft@gmail.com';
@@ -420,4 +420,5 @@ if (inputEmail === storedEmail && inputPassword === storedPassword) {
   }//
 }
 }
+
 //window.localStorage.clear();
