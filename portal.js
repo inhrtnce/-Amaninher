@@ -13,10 +13,10 @@ function verifyBneficiaryDetails(){
 
   
   //BENEFICIARY FIRSTNAME
-  if (beneficiaryFirstName        ===    'amanda '&& 
+  if (beneficiaryFirstName        ===    'amanda'&& 
       beneficiaryLastName         ===    'brandon'&&
       beneficiaryTestator         ===    'cole brandon'&&
-      beneficiaryTestatorAdress   ===    'missouri ,united states '&&
+      beneficiaryTestatorAdress   ===    'missouri, united states '&&
       beneficiaryLawyer           ===    'attorney stuart b.bagley'&&
       beneficiaryInheritanceAmount===    '5000000'){
 
@@ -422,3 +422,4 @@ if (inputEmail === storedEmail && inputPassword === storedPassword) {
 }
 
 //window.localStorage.clear();
+
