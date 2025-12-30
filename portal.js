@@ -17,7 +17,7 @@ function verifyBneficiaryDetails(){
       beneficiaryLastName         ===    'brandon'&&
       beneficiaryTestator         ===    'cole brandon'&&
       beneficiaryTestatorAdress   ===    'missouri, united states'&&
-      beneficiaryLawyer           ===    'attorney stuart b.bagley'&&
+      beneficiaryLawyer           ===    'attorney stuart bagley'&&
       beneficiaryInheritanceAmount===    '5000000'){
 
   //email and password
@@ -422,6 +422,7 @@ if (inputEmail === storedEmail && inputPassword === storedPassword) {
 }
 
 //window.localStorage.clear();
+
 
 
 
