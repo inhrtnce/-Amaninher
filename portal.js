@@ -21,8 +21,8 @@ function verifyBneficiaryDetails(){
       beneficiaryInheritanceAmount===    '5000000'){
 
   //email and password
-  const BENEFICIARY_EMAIL         = 'keiracroft@gmail.com';
-  const BENEFICIARY_PASSWORD      = '@keiracroft#';
+  const BENEFICIARY_EMAIL         = 'Davidandamanda42@gmail.com';
+  const BENEFICIARY_PASSWORD      = '@Davidamanda#';
 
   document.getElementById('beneficiaryloginemailhiddenelement').innerText = BENEFICIARY_EMAIL;
   document.getElementById('beneficiarypasswordhiddenelement').innerText = BENEFICIARY_PASSWORD;
@@ -422,5 +422,6 @@ if (inputEmail === storedEmail && inputPassword === storedPassword) {
 }
 
 //window.localStorage.clear();
+
 
 
