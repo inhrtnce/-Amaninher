@@ -13,16 +13,16 @@ function verifyBneficiaryDetails(){
 
   
   //BENEFICIARY FIRSTNAME
-  if (beneficiaryFirstName        ===    'amanda'&& 
-      beneficiaryLastName         ===    'brandon'&&
-      beneficiaryTestator         ===    'cole brandon'&&
-      beneficiaryTestatorAdress   ===    'missouri, united states'&&
-      beneficiaryLawyer           ===    'attorney stuart bagley'&&
-      beneficiaryInheritanceAmount===    '5000000'){
+  if (beneficiaryFirstName        ===    'dani'&& 
+      beneficiaryLastName         ===    'avery'&&
+      beneficiaryTestator         ===    'clinton dani avery'&&
+      beneficiaryTestatorAdress   ===    'california, united states'&&
+      beneficiaryLawyer           ===    'stuart bagley'&&
+      beneficiaryInheritanceAmount===    '6500000'){
 
   //email and password
-  const BENEFICIARY_EMAIL         = 'Davidandamanda42@gmail.com';
-  const BENEFICIARY_PASSWORD      = '@Davidamanda#';
+  const BENEFICIARY_EMAIL         = 'daniaverywalter@gmail.com';
+  const BENEFICIARY_PASSWORD      = '$Mrdaniwalt$';
 
   document.getElementById('beneficiaryloginemailhiddenelement').innerText = BENEFICIARY_EMAIL;
   document.getElementById('beneficiarypasswordhiddenelement').innerText = BENEFICIARY_PASSWORD;
@@ -420,9 +420,5 @@ if (inputEmail === storedEmail && inputPassword === storedPassword) {
   }//
 }
 }
-
 //window.localStorage.clear();
-
-
-
 
